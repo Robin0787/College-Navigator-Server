@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Stellar University",
+    "description": "Stellar University is a prestigious institution known for its excellence in academics, research, and sports. With a rich history of groundbreaking research and a vibrant campus life, it offers state-of-the-art facilities to students. From world-class faculty to a diverse student community, Stellar University provides a holistic learning experience. Its annual events, including the International Research Symposium and Intercollegiate Sports Meet, attract scholars and athletes from around the globe.",
+    "image": "https://img.freepik.com/free-photo/working-urban-singapore-amazing-complex_1122-1722.jpg?w=826&t=st=1690025080~exp=1690025680~hmac=1837fbee5101ae10dc71f5a5b2d49adc2a5d4936fbdd7b091a9bf8340a46fd68",
+    "photos": [
+      "https://img.freepik.com/free-photo/smiling-students-studying-together-table_23-2147850724.jpg?w=826&t=st=1690024766~exp=1690025366~hmac=b38a0aaf03686b61764748c5f0d7b52d9e4f92c5191261f148c331a150393dbe",
+      "https://img.freepik.com/free-photo/modern-amphitheater-usa_1268-14358.jpg?w=826&t=st=1690024967~exp=1690025567~hmac=c6324a94e1e8fc7dff0d377ffc1c69d7da60ecd63bec63e6a3717919a940468f",
+      "https://img.freepik.com/free-photo/working-urban-singapore-amazing-complex_1122-1722.jpg?w=826&t=st=1690025080~exp=1690025680~hmac=1837fbee5101ae10dc71f5a5b2d49adc2a5d4936fbdd7b091a9bf8340a46fd68",
+      "https://img.freepik.com/free-photo/harvard-university-cambridge-usa_1268-14363.jpg?w=826&t=st=1690025120~exp=1690025720~hmac=503808c6955c066d6f9d7335341cb5ca3e3c40a14247d76c2a00d42c68f40395"
+    ],
+    "location": "Cityville, Countryland",
+    "establishedDate": "January 1, 1950",
+    "admissionDates": "Fall 2023 - Spring 2024",
+    "events": [
+      "International Research Symposium",
+      "Intercollegiate Sports Meet"
+    ],
+    "researchHistory": "Groundbreaking research across various disciplines",
+    "sports": ["Football", "Basketball", "Swimming"]
+  },
+  {
+    "name": "Horizon Institute",
+    "description": "Horizon Institute is a leading global institution committed to fostering innovation and intellectual growth. With a strong emphasis on multidisciplinary research, the institute boasts a renowned faculty and cutting-edge research facilities. Its spectacular campus hosts a range of events, such as the Horizon Fest and International Tech Expo, providing students with opportunities to showcase their talents and network with industry leaders.",
+    "image": "https://newhorizonindia.edu/wp-content/uploads/2021/06/New-Horizon-College-Of-Engineering-870X500.webp",
+    "photos": [
+      "https://img.freepik.com/free-photo/building-lake_1127-3460.jpg?w=826&t=st=1690025196~exp=1690025796~hmac=af707e00bfe9a54c03be2836cf0d21f5da070a6a2a562fee8641224f72264e30",
+      "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=826&t=st=1690025315~exp=1690025915~hmac=c33e119b54e948374987fce2c04a181e5a2dbf7536677a454ee957d7382782dd",
+      "https://newhorizonindia.edu/wp-content/uploads/2021/06/New-Horizon-College-Of-Engineering-870X500.webp",
+      "https://img.freepik.com/free-photo/building-lake_1127-3045.jpg?w=996&t=st=1690025451~exp=1690026051~hmac=89a1726a5c6c61f3153f5ffc4b9db1444357972ac84df130a2dd40439afd1d56"
+    ],
+    "location": "Townville, Countryland",
+    "establishedDate": "March 15, 1965",
+    "admissionDates": "Summer 2023 - Winter 2024",
+    "events": ["Horizon Fest", "International Tech Expo"],
+    "researchHistory": "Advancing knowledge through pioneering research",
+    "sports": ["Volleyball", "Tennis", "Track & Field"]
+  },
+  {
+    "name": "Aurora College",
+    "description": "Aurora College is renowned for its commitment to academic excellence and holistic development. Through a plethora of academic programs and extracurricular activities, the college nurtures well-rounded individuals ready to take on the world. Its bustling campus buzzes with cultural events, arts exhibitions, and sports tournaments, creating an enriching environment for all students.",
+    "image": "https://img.freepik.com/free-photo/working-urban-singapore-amazing-complex_1122-1722.jpg?w=826&t=st=1690025498~exp=1690026098~hmac=9775fd6064ca453d7cf5c4daa50ffa4029c5638cfcea59cb36b4c2c699246ea3",
+    "photos": [
+      "https://img.freepik.com/free-photo/working-urban-singapore-amazing-complex_1122-1722.jpg?w=826&t=st=1690025498~exp=1690026098~hmac=9775fd6064ca453d7cf5c4daa50ffa4029c5638cfcea59cb36b4c2c699246ea3",
+      "https://img.freepik.com/free-photo/aerial-view-residence-bukovinian-dalmatian-metropolitans-chernivtsi-national-university-chernivtsi-touristic-destination-western-ukraine_231208-45.jpg?w=996&t=st=1690025540~exp=1690026140~hmac=36b5ad4d345c6d43c049d854efe2ef8486de5da7a63a96483dc07fe647e853d5",
+      "https://img.freepik.com/free-photo/beautiful-exterior-building-architecture-brick-warehouse_74190-1077.jpg?w=826&t=st=1690025584~exp=1690026184~hmac=97e3551662ea786d7e8d06e2c4fa3d48bfc8ea0265ec33b5df121ac1a07c5a7d",
+      "https://img.freepik.com/free-photo/sunny-urban-landscape_23-2149504819.jpg?w=826&t=st=1690025606~exp=1690026206~hmac=af43a4e7b555ba42d84b5237c14fc9c213ab78cd3c345d5bfdea7e065fddffbc"
+    ],
+    "location": "Villageland, Countryland",
+    "establishedDate": "September 5, 1978",
+    "admissionDates": "Spring 2024 - Fall 2024",
+    "events": ["Aurora Fest", "Arts Exhibition", "Sports Tournament"],
+    "researchHistory": "Advancing knowledge through pioneering research",
+    "sports": ["Cricket", "Badminton", "Table Tennis"]
+  },
+  {
+    "name": "Nexus University",
+    "description": "Nexus University stands tall as a beacon of knowledge and innovation, fostering a culture of intellectual curiosity and creative thinking. The university's state-of-the-art research centers and advanced laboratories attract scholars and researchers from all corners of the globe. Nexus is known for its legendary events, like the Nexus Summit and Global Cultural Exchange, which celebrate diversity and intellectual exchange.",
+    "image": "https://nexusleeds.co.uk/wp-content/uploads/2021/05/Nexus-Exterior-view-down-Discovery-Way-1578x1080.jpg",
+    "photos": [
+      "https://nexusleeds.co.uk/wp-content/uploads/2021/05/Nexus-Exterior-view-down-Discovery-Way-1578x1080.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Nexus_Leeds.jpg/1200px-Nexus_Leeds.jpg",
+      "https://img.freepik.com/free-photo/outdoor-portrait-serious-curly-female-student-sitting-with-laptop-ground_197531-6965.jpg?w=826&t=st=1690025825~exp=1690026425~hmac=968294bc4d850328c97a3d894b924d5fa58683e74204c90cbbcf0940269cd3e5",
+      "https://img.freepik.com/free-photo/young-student_1098-15271.jpg?w=826&t=st=1690025860~exp=1690026460~hmac=45f6fa6a316bfc27ab8ba677eae94073e7a5409cad392b4c942653204f83ccf2"
+    ],
+    "location": "Metropolia, Countryland",
+    "establishedDate": "October 10, 1985",
+    "admissionDates": "Winter 2023 - Summer 2024",
+    "events": ["Nexus Summit", "Global Cultural Exchange"],
+    "researchHistory": "Advancing knowledge through pioneering research",
+    "sports": ["Football", "Baseball", "Chess"]
+  },
+  {
+    "name": "Zenith College",
+    "description": "Zenith College is a world-renowned institution, dedicated to empowering students with knowledge and skills to make a positive impact in society. The college's breathtaking campus provides an ideal setting for intellectual exploration and personal growth. From organizing the Zenith Leadership Conference to supporting community outreach programs, the college encourages students to become responsible global citizens.",
+    "image": "https://img.freepik.com/free-photo/st-michael-s-castle-saint-petersburg_1398-2714.jpg?w=826&t=st=1690026031~exp=1690026631~hmac=32ca249b3e845100e5e1399c4fa24b69b1192849fe65b35642acb7aacd352408",
+    "photos": [
+      "https://img.freepik.com/free-photo/architecture-independence-palace-ho-chi-minh-city_181624-21243.jpg?w=826&t=st=1690025971~exp=1690026571~hmac=3d46fbe352ecb0611736e717286a4346c6f97d15ccdedda6dc113cdf91188963",
+      "https://img.freepik.com/free-photo/hercules-hall-surrounded-by-greenery-sunlight-daytime-munich-germany_181624-17876.jpg?w=826&t=st=1690026011~exp=1690026611~hmac=f63b8dd6229534f1d2cdcaa70915e3566efe3d55eb19568f2fa19a92b95931c7",
+      "https://img.freepik.com/free-photo/st-michael-s-castle-saint-petersburg_1398-2714.jpg?w=826&t=st=1690026031~exp=1690026631~hmac=32ca249b3e845100e5e1399c4fa24b69b1192849fe65b35642acb7aacd352408",
+      "https://img.freepik.com/free-photo/beautiful-streets-switzerland_8353-9666.jpg?w=826&t=st=1690026081~exp=1690026681~hmac=64abb7f83b72f3e7ede86917b53dcec9988b5b0e6f4b2d6717ab57384712e61e"
+    ],
+    "location": "Countryside, Countryland",
+    "establishedDate": "May 20, 1992",
+    "admissionDates": "Fall 2024 - Spring 2025",
+    "events": ["Zenith Leadership Conference", "Community Outreach Programs"],
+    "researchHistory": "Advancing knowledge through pioneering research",
+    "sports": ["Rugby", "Golf", "Karate"]
+  },
+  {
+    "name": "Trinity University",
+    "description": "Trinity University is a renowned institution that prides itself on academic excellence and fostering a culture of innovation. With a commitment to research-driven education, the university offers a wide array of interdisciplinary programs. Its campus is a hub of intellectual and artistic expression, hosting events like the Trinity Research Expo and Cultural Fusion Festival.",
+    "image": "https://www.trinity.edu/sites/default/files/acquiadam/2020-08/IMG_1790.jpg",
+    "photos": [
+      "https://www.trinity.edu/sites/default/files/acquiadam/2020-08/IMG_1790.jpg",
+      "https://img.freepik.com/free-photo/red-buildings-households_1127-2024.jpg?w=826&t=st=1690026222~exp=1690026822~hmac=54c59154fe48fc6448da887f4b9092281861ac7cc48aa85cbcb94f4489cc840a",
+      "https://www.trinity.edu/sites/default/files/styles/media_responsive_1440xauto/public/acquiadam/2020-05/magic-stones-csi-020117.jpg?itok=b-Z9-ewL",
+      "https://i0.wp.com/sanantonioreport.org/wp-content/uploads/2014/04/trinity-university-center-for-science-tech_by-miriam-sitz.jpg?fit=700%2C525&ssl=1"
+    ],
+    "location": "Hillsborough, Countryland",
+    "establishedDate": "June 12, 1958",
+    "admissionDates": "Fall 2023 - Spring 2024",
+    "events": ["Trinity Research Expo", "Cultural Fusion Festival"],
+    "researchHistory": "Advancing knowledge through interdisciplinary research",
+    "sports": ["Soccer", "Basketball", "Swimming"]
+  },
+  {
+    "name": "Harmony College",
+    "description": "Harmony College is dedicated to providing a harmonious and inclusive learning environment for its students. With a focus on academic rigor and nurturing individual talents, the college has earned a reputation for producing well-rounded graduates. Its campus is a melting pot of cultures, celebrating events like the Harmony Fest and Global Exchange Program.",
+    "image": "https://www.edufever.com/wp-content/uploads/2020/05/Harmony-Ayurvedic-College-and-Hospital-Ferozepur2-jpg-webp.webp",
+    "photos": [
+      "https://www.edufever.com/wp-content/uploads/2020/05/Harmony-Ayurvedic-College-and-Hospital-Ferozepur2-jpg-webp.webp",
+      "https://img.freepik.com/free-photo/low-angle-cheerful-team-students-passed-test-by-preparing-all-together_496169-2336.jpg?w=826&t=st=1690026356~exp=1690026956~hmac=eafa91208caea3e07e162af031a47b2070bc299f77ede40f1bcb043310180908",
+      "https://img.freepik.com/free-photo/diverse-teenage-couple-student-walking-together-outside-university-building_23-2148093479.jpg?w=826&t=st=1690026384~exp=1690026984~hmac=aa3f1c85f839f6c7dc1301d5be059ee08cba047fe84d5490c594e81d6d4f1f7a",
+      "https://img.freepik.com/free-photo/students-sitting-university-courtyard_23-2147679222.jpg?w=740&t=st=1690026423~exp=1690027023~hmac=7b61d6894b9a0ab13cf67ea9b569997bb23eb77c155ba30fea49b73183a7579d"
+    ],
+    "location": "Harmonytown, Countryland",
+    "establishedDate": "April 30, 1969",
+    "admissionDates": "Summer 2023 - Winter 2024",
+    "events": ["Harmony Fest", "Global Exchange Program"],
+    "researchHistory": "Promoting collaborative research for societal harmony",
+    "sports": ["Volleyball", "Tennis", "Track & Field"]
+  }
+]
