@@ -1,4 +1,4 @@
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const express = require('express');
 const app = express();
 const cors = require('cors');
@@ -28,9 +28,26 @@ async function run() {
     const collegeCollection = client.db('College-Navigator').collection('Colleges');
 
     // GET ------ GET ------ GET -------- GET
+    // Getting all the colleges info
     app.get('/colleges', async(req, res) => {
         const colleges = await collegeCollection.find().toArray();
         res.send(colleges);
+    });
+
+    // Searching colleges based on name
+    app.get('/college/:name', async(req, res) => {
+      const name = req.params.name;
+      const query = {name : {$regex: name, $options: 'i'}};
+      const colleges = await collegeCollection.find(query).toArray();
+      res.send(colleges);
+    })
+
+    // Getting specific college details
+    app.get('/college-details/:id', async (req, res) => {
+      const id = req.params.id;
+      const query = {_id: new ObjectId(id)};
+      const college = await collegeCollection.findOne(query);
+      res.send(college);
     })
 
 
