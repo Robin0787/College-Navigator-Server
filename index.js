@@ -26,6 +26,7 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const collegeCollection = client.db('College-Navigator').collection('Colleges');
+    const userCollection = client.db('College-Navigator').collection('Users');
 
     // GET ------ GET ------ GET -------- GET
     // Getting all the colleges info
@@ -50,6 +51,19 @@ async function run() {
       res.send(college);
     })
 
+
+    // PUT --------- PUT --------- PUT ---------- PUT
+    app.put('/save-user/:email', async(req, res) => {
+      const email = req.params.email;
+      const userInfo = req.body;
+      const query = {email : email};
+      const updatedDoc = {
+        $set: {...userInfo}
+      };
+      const options = {upsert : true};
+      const result = await userCollection.updateOne(query, updatedDoc, options);
+      res.send(result);
+    })
 
 
     // Send a ping to confirm a successful connection
