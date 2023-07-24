@@ -65,6 +65,14 @@ async function run() {
     app.get('/reviews', async(req, res) => {
       const reviews = await reviewCollection.find().toArray();
       res.send(reviews);
+    });
+
+    // Getting user details
+    app.get('/user/:email', async(req, res) => {
+      const email = req.params.email;
+      const query = {email: email};
+      const user = await userCollection.findOne(query);
+      res.send(user);
     })
 
     // POST --------- POST --------- POST ---------- POST
@@ -97,6 +105,18 @@ async function run() {
       res.send(result);
     })
 
+    // PATCH --------- PATCH --------- PATCH ---------- PATCH
+    // app.patch('/update-user/:email', async (req, res) => {
+    //   const email = req.params.email;
+    //   const data = req.body;
+    //   const query = {email: email};
+    //   const doc = {
+    //     $set: {...data}
+    //   };
+    //   const options = { upsert : true };
+    //   const result = await userCollection.updateOne( query, doc, options );
+    //   res.send(result);
+    // })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
