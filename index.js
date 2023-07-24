@@ -28,6 +28,7 @@ async function run() {
     const collegeCollection = client.db('College-Navigator').collection('Colleges');
     const userCollection = client.db('College-Navigator').collection('Users');
     const bookingCollection = client.db('College-Navigator').collection('My-Bookings');
+    const reviewCollection = client.db('College-Navigator').collection('Reviews');
 
     // GET ------ GET ------ GET -------- GET
     // Getting all the colleges info
@@ -52,6 +53,7 @@ async function run() {
       res.send(college);
     })
 
+    // Getting bookings based on user email
     app.get('/my-bookings/:email', async (req, res) => {
       const email = req.params.email;
       const query = {email: email};
@@ -59,11 +61,25 @@ async function run() {
       res.send(bookings);
     })
 
+    // getting all reviews
+    app.get('/reviews', async(req, res) => {
+      const reviews = await reviewCollection.find().toArray();
+      res.send(reviews);
+    })
+
     // POST --------- POST --------- POST ---------- POST
     app.post('/upload-booking', async (req, res) => {
       const data = req.body;
       const doc = {...data};
       const result = await bookingCollection.insertOne(doc);
+      res.send(result);
+    });
+
+    // Add review
+    app.post('/add-review', async(req, res) => {
+      const data = req.body;
+      const doc = {...data};
+      const result = await reviewCollection.insertOne(doc);
       res.send(result);
     });
 
